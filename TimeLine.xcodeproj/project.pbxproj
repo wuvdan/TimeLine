@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D5E32718367183422B41C6F /* libPods-TimeLine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 686B9910F51EDBBE89BF4626 /* libPods-TimeLine.a */; };
+		D436E7172367CA9D00D1EE37 /* WDTimeLineImageLoadView.m in Sources */ = {isa = PBXBuildFile; fileRef = D436E7162367CA9D00D1EE37 /* WDTimeLineImageLoadView.m */; };
+		D436E71A236803CE00D1EE37 /* WDTimeLineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D436E719236803CE00D1EE37 /* WDTimeLineTableViewCell.m */; };
+		D436E72923681A8900D1EE37 /* HZWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = D436E72123681A8900D1EE37 /* HZWaitingView.m */; };
+		D436E72A23681A8A00D1EE37 /* HZPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = D436E72323681A8900D1EE37 /* HZPhotoBrowser.m */; };
+		D436E72B23681A8A00D1EE37 /* HZPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D436E72623681A8900D1EE37 /* HZPhotoBrowser.bundle */; };
+		D436E72C23681A8A00D1EE37 /* HZPhotoBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = D436E72723681A8900D1EE37 /* HZPhotoBrowserView.m */; };
+		D436E72F2368299B00D1EE37 /* WDTimeLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = D436E72E2368299A00D1EE37 /* WDTimeLineView.m */; };
+		D4C450FB2366DE32000C2F76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C450FA2366DE32000C2F76 /* AppDelegate.m */; };
+		D4C450FE2366DE32000C2F76 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C450FD2366DE32000C2F76 /* SceneDelegate.m */; };
+		D4C451012366DE32000C2F76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C451002366DE32000C2F76 /* ViewController.m */; };
+		D4C451042366DE32000C2F76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4C451022366DE32000C2F76 /* Main.storyboard */; };
+		D4C451062366DE36000C2F76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4C451052366DE36000C2F76 /* Assets.xcassets */; };
+		D4C451092366DE36000C2F76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4C451072366DE36000C2F76 /* LaunchScreen.storyboard */; };
+		D4C4510C2366DE36000C2F76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C4510B2366DE36000C2F76 /* main.m */; };
+		D4C451142366DFFD000C2F76 /* WDTimeLinePureTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C451132366DFFD000C2F76 /* WDTimeLinePureTextTableViewCell.m */; };
+		D4C451172366E035000C2F76 /* WDTimeLineBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C451162366E035000C2F76 /* WDTimeLineBaseTableViewCell.m */; };
+		D4C4511D2366EAF3000C2F76 /* WDTimeLineTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C4511C2366EAF3000C2F76 /* WDTimeLineTool.m */; };
+		D4F50BFC2367C917002FCA45 /* WDTimeLinePureImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F50BFB2367C917002FCA45 /* WDTimeLinePureImageTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		686B9910F51EDBBE89BF4626 /* libPods-TimeLine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TimeLine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D436E7152367CA9D00D1EE37 /* WDTimeLineImageLoadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDTimeLineImageLoadView.h; sourceTree = "<group>"; };
+		D436E7162367CA9D00D1EE37 /* WDTimeLineImageLoadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDTimeLineImageLoadView.m; sourceTree = "<group>"; };
+		D436E718236803CE00D1EE37 /* WDTimeLineTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDTimeLineTableViewCell.h; sourceTree = "<group>"; };
+		D436E719236803CE00D1EE37 /* WDTimeLineTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDTimeLineTableViewCell.m; sourceTree = "<group>"; };
+		D436E71C2368157D00D1EE37 /* WDTimeLineConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDTimeLineConstant.h; sourceTree = "<group>"; };
+		D436E72123681A8900D1EE37 /* HZWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZWaitingView.m; sourceTree = "<group>"; };
+		D436E72223681A8900D1EE37 /* HZPhotoBrowserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZPhotoBrowserConfig.h; sourceTree = "<group>"; };
+		D436E72323681A8900D1EE37 /* HZPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZPhotoBrowser.m; sourceTree = "<group>"; };
+		D436E72423681A8900D1EE37 /* HZPhotoBrowserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZPhotoBrowserView.h; sourceTree = "<group>"; };
+		D436E72523681A8900D1EE37 /* HZWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZWaitingView.h; sourceTree = "<group>"; };
+		D436E72623681A8900D1EE37 /* HZPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HZPhotoBrowser.bundle; sourceTree = "<group>"; };
+		D436E72723681A8900D1EE37 /* HZPhotoBrowserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZPhotoBrowserView.m; sourceTree = "<group>"; };
+		D436E72823681A8900D1EE37 /* HZPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZPhotoBrowser.h; sourceTree = "<group>"; };
+		D436E72D2368299A00D1EE37 /* WDTimeLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDTimeLineView.h; sourceTree = "<group>"; };
+		D436E72E2368299A00D1EE37 /* WDTimeLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDTimeLineView.m; sourceTree = "<group>"; };
+		D4C450F62366DE32000C2F76 /* TimeLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4C450F92366DE32000C2F76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D4C450FA2366DE32000C2F76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D4C450FC2366DE32000C2F76 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D4C450FD2366DE32000C2F76 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D4C450FF2366DE32000C2F76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D4C451002366DE32000C2F76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D4C451032366DE32000C2F76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4C451052366DE36000C2F76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4C451082366DE36000C2F76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4C4510A2366DE36000C2F76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4C4510B2366DE36000C2F76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4C451122366DFFD000C2F76 /* WDTimeLinePureTextTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDTimeLinePureTextTableViewCell.h; sourceTree = "<group>"; };
+		D4C451132366DFFD000C2F76 /* WDTimeLinePureTextTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDTimeLinePureTextTableViewCell.m; sourceTree = "<group>"; };
+		D4C451152366E035000C2F76 /* WDTimeLineBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDTimeLineBaseTableViewCell.h; sourceTree = "<group>"; };
+		D4C451162366E035000C2F76 /* WDTimeLineBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDTimeLineBaseTableViewCell.m; sourceTree = "<group>"; };
+		D4C4511B2366EAF3000C2F76 /* WDTimeLineTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDTimeLineTool.h; sourceTree = "<group>"; };
+		D4C4511C2366EAF3000C2F76 /* WDTimeLineTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDTimeLineTool.m; sourceTree = "<group>"; };
+		D4F50BFA2367C917002FCA45 /* WDTimeLinePureImageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDTimeLinePureImageTableViewCell.h; sourceTree = "<group>"; };
+		D4F50BFB2367C917002FCA45 /* WDTimeLinePureImageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDTimeLinePureImageTableViewCell.m; sourceTree = "<group>"; };
+		D622299AF81D91DB3474D0AB /* Pods-TimeLine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeLine.debug.xcconfig"; path = "Target Support Files/Pods-TimeLine/Pods-TimeLine.debug.xcconfig"; sourceTree = "<group>"; };
+		E2296A443D43C2F209948748 /* Pods-TimeLine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeLine.release.xcconfig"; path = "Target Support Files/Pods-TimeLine/Pods-TimeLine.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4C450F32366DE32000C2F76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5E32718367183422B41C6F /* libPods-TimeLine.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27BD110459AD00DF53D6DA80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				686B9910F51EDBBE89BF4626 /* libPods-TimeLine.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99BFB47EBB1F3188B9FF2AC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D622299AF81D91DB3474D0AB /* Pods-TimeLine.debug.xcconfig */,
+				E2296A443D43C2F209948748 /* Pods-TimeLine.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D436E71D2368165400D1EE37 /* WDTimeLine */ = {
+			isa = PBXGroup;
+			children = (
+				D436E71C2368157D00D1EE37 /* WDTimeLineConstant.h */,
+				D436E72023681A8900D1EE37 /* PhtotoBrowser */,
+				D436E71F2368166700D1EE37 /* Tool */,
+				D436E71E2368165F00D1EE37 /* View */,
+			);
+			path = WDTimeLine;
+			sourceTree = "<group>";
+		};
+		D436E71E2368165F00D1EE37 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D4C451152366E035000C2F76 /* WDTimeLineBaseTableViewCell.h */,
+				D4C451162366E035000C2F76 /* WDTimeLineBaseTableViewCell.m */,
+				D4F50BFA2367C917002FCA45 /* WDTimeLinePureImageTableViewCell.h */,
+				D4F50BFB2367C917002FCA45 /* WDTimeLinePureImageTableViewCell.m */,
+				D436E718236803CE00D1EE37 /* WDTimeLineTableViewCell.h */,
+				D436E719236803CE00D1EE37 /* WDTimeLineTableViewCell.m */,
+				D436E7152367CA9D00D1EE37 /* WDTimeLineImageLoadView.h */,
+				D436E7162367CA9D00D1EE37 /* WDTimeLineImageLoadView.m */,
+				D4C451122366DFFD000C2F76 /* WDTimeLinePureTextTableViewCell.h */,
+				D4C451132366DFFD000C2F76 /* WDTimeLinePureTextTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D436E71F2368166700D1EE37 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				D4C4511B2366EAF3000C2F76 /* WDTimeLineTool.h */,
+				D4C4511C2366EAF3000C2F76 /* WDTimeLineTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		D436E72023681A8900D1EE37 /* PhtotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				D436E72123681A8900D1EE37 /* HZWaitingView.m */,
+				D436E72223681A8900D1EE37 /* HZPhotoBrowserConfig.h */,
+				D436E72323681A8900D1EE37 /* HZPhotoBrowser.m */,
+				D436E72423681A8900D1EE37 /* HZPhotoBrowserView.h */,
+				D436E72523681A8900D1EE37 /* HZWaitingView.h */,
+				D436E72623681A8900D1EE37 /* HZPhotoBrowser.bundle */,
+				D436E72723681A8900D1EE37 /* HZPhotoBrowserView.m */,
+				D436E72823681A8900D1EE37 /* HZPhotoBrowser.h */,
+			);
+			path = PhtotoBrowser;
+			sourceTree = "<group>";
+		};
+		D436E73023682F3D00D1EE37 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				D4C450F92366DE32000C2F76 /* AppDelegate.h */,
+				D4C450FA2366DE32000C2F76 /* AppDelegate.m */,
+				D4C450FC2366DE32000C2F76 /* SceneDelegate.h */,
+				D4C450FD2366DE32000C2F76 /* SceneDelegate.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		D436E73123682F4B00D1EE37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4C451022366DE32000C2F76 /* Main.storyboard */,
+				D4C451052366DE36000C2F76 /* Assets.xcassets */,
+				D4C451072366DE36000C2F76 /* LaunchScreen.storyboard */,
+				D4C4510A2366DE36000C2F76 /* Info.plist */,
+				D4C4510B2366DE36000C2F76 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D436E73223682F6800D1EE37 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D4C450FF2366DE32000C2F76 /* ViewController.h */,
+				D4C451002366DE32000C2F76 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D436E73323682F8700D1EE37 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D436E71D2368165400D1EE37 /* WDTimeLine */,
+				D436E72D2368299A00D1EE37 /* WDTimeLineView.h */,
+				D436E72E2368299A00D1EE37 /* WDTimeLineView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D4C450ED2366DE32000C2F76 = {
+			isa = PBXGroup;
+			children = (
+				D4C450F82366DE32000C2F76 /* TimeLine */,
+				D4C450F72366DE32000C2F76 /* Products */,
+				99BFB47EBB1F3188B9FF2AC1 /* Pods */,
+				27BD110459AD00DF53D6DA80 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D4C450F72366DE32000C2F76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4C450F62366DE32000C2F76 /* TimeLine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4C450F82366DE32000C2F76 /* TimeLine */ = {
+			isa = PBXGroup;
+			children = (
+				D436E73023682F3D00D1EE37 /* Delegate */,
+				D436E73223682F6800D1EE37 /* Controller */,
+				D436E73323682F8700D1EE37 /* View */,
+				D436E73123682F4B00D1EE37 /* Supporting Files */,
+			);
+			path = TimeLine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4C450F52366DE32000C2F76 /* TimeLine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4C4510F2366DE36000C2F76 /* Build configuration list for PBXNativeTarget "TimeLine" */;
+			buildPhases = (
+				5C0713E416A0F40E71C99BB0 /* [CP] Check Pods Manifest.lock */,
+				D4C450F22366DE32000C2F76 /* Sources */,
+				D4C450F32366DE32000C2F76 /* Frameworks */,
+				D4C450F42366DE32000C2F76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeLine;
+			productName = TimeLine;
+			productReference = D4C450F62366DE32000C2F76 /* TimeLine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4C450EE2366DE32000C2F76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Unique;
+				TargetAttributes = {
+					D4C450F52366DE32000C2F76 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = D4C450F12366DE32000C2F76 /* Build configuration list for PBXProject "TimeLine" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4C450ED2366DE32000C2F76;
+			productRefGroup = D4C450F72366DE32000C2F76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4C450F52366DE32000C2F76 /* TimeLine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4C450F42366DE32000C2F76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C451092366DE36000C2F76 /* LaunchScreen.storyboard in Resources */,
+				D436E72B23681A8A00D1EE37 /* HZPhotoBrowser.bundle in Resources */,
+				D4C451062366DE36000C2F76 /* Assets.xcassets in Resources */,
+				D4C451042366DE32000C2F76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C0713E416A0F40E71C99BB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TimeLine-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4C450F22366DE32000C2F76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D436E72F2368299B00D1EE37 /* WDTimeLineView.m in Sources */,
+				D4C451172366E035000C2F76 /* WDTimeLineBaseTableViewCell.m in Sources */,
+				D4C451142366DFFD000C2F76 /* WDTimeLinePureTextTableViewCell.m in Sources */,
+				D436E72C23681A8A00D1EE37 /* HZPhotoBrowserView.m in Sources */,
+				D4C4511D2366EAF3000C2F76 /* WDTimeLineTool.m in Sources */,
+				D4C451012366DE32000C2F76 /* ViewController.m in Sources */,
+				D436E72923681A8900D1EE37 /* HZWaitingView.m in Sources */,
+				D4C450FB2366DE32000C2F76 /* AppDelegate.m in Sources */,
+				D436E71A236803CE00D1EE37 /* WDTimeLineTableViewCell.m in Sources */,
+				D436E7172367CA9D00D1EE37 /* WDTimeLineImageLoadView.m in Sources */,
+				D4F50BFC2367C917002FCA45 /* WDTimeLinePureImageTableViewCell.m in Sources */,
+				D4C4510C2366DE36000C2F76 /* main.m in Sources */,
+				D4C450FE2366DE32000C2F76 /* SceneDelegate.m in Sources */,
+				D436E72A23681A8A00D1EE37 /* HZPhotoBrowser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4C451022366DE32000C2F76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4C451032366DE32000C2F76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4C451072366DE36000C2F76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4C451082366DE36000C2F76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4C4510D2366DE36000C2F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4C4510E2366DE36000C2F76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4C451102366DE36000C2F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D622299AF81D91DB3474D0AB /* Pods-TimeLine.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U3P6XPJZD2;
+				INFOPLIST_FILE = "$(SRCROOT)/TimeLine/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.forever.TimeLine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4C451112366DE36000C2F76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2296A443D43C2F209948748 /* Pods-TimeLine.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U3P6XPJZD2;
+				INFOPLIST_FILE = "$(SRCROOT)/TimeLine/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.forever.TimeLine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4C450F12366DE32000C2F76 /* Build configuration list for PBXProject "TimeLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4C4510D2366DE36000C2F76 /* Debug */,
+				D4C4510E2366DE36000C2F76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4C4510F2366DE36000C2F76 /* Build configuration list for PBXNativeTarget "TimeLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4C451102366DE36000C2F76 /* Debug */,
+				D4C451112366DE36000C2F76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4C450EE2366DE32000C2F76 /* Project object */;
+}
