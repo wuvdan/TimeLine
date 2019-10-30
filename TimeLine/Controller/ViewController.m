@@ -11,6 +11,7 @@
 #import <Masonry.h>
 #import "WDTimeLineView.h"
 
+#import "WDTimeLinePostViewController.h"
 // 判断是否iPhone X
 #define kIS_iPhoneX             (UIApplication.sharedApplication.statusBarFrame.size.height > 20 ? YES : NO)
 // 屏幕高度
@@ -40,14 +41,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.title = @"社交圈";
+    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"发布" style:UIBarButtonItemStylePlain target:self action:@selector(post)];
  
     [self setupCategoryView];
     [self setupScrollView];
     [self setupSubViews];
 }
 
+- (void)post {
+    WDTimeLinePostViewController *vc = [[WDTimeLinePostViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+//    nav.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:nav animated:true completion:nil];
+}
+
 - (void)setupCategoryView {
-    self.categoryView = [[JXCategoryTitleView alloc] initWithFrame:CGRectMake(0, kStatusBarHeight, UIScreen.mainScreen.bounds.size.width, 42)];
+    self.categoryView = [[JXCategoryTitleView alloc] initWithFrame:CGRectMake(0, kStatusBarHeight + 44, UIScreen.mainScreen.bounds.size.width, 42)];
     self.categoryView.titleColor = [UIColor lightGrayColor];
     self.categoryView.titleSelectedColor = [UIColor redColor];
     self.categoryView.titleSelectedFont = [UIFont systemFontOfSize:17];
@@ -78,7 +90,7 @@
     self.categoryView.contentScrollView = self.scrollView;
     
     [self.scrollView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.mas_equalTo(kStatusBarHeight + 42);
+        make.top.mas_equalTo(kStatusBarHeight + 42 + 44);
         make.leading.trailing.mas_equalTo(0);
         make.bottom.mas_equalTo(0);
     }];

@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4D5E32718367183422B41C6F /* libPods-TimeLine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 686B9910F51EDBBE89BF4626 /* libPods-TimeLine.a */; };
+		D4331E3A2369267900A73E0C /* UITextView+TimeLine.m in Sources */ = {isa = PBXBuildFile; fileRef = D4331E392369267900A73E0C /* UITextView+TimeLine.m */; };
 		D436E7172367CA9D00D1EE37 /* WDTimeLineImageLoadView.m in Sources */ = {isa = PBXBuildFile; fileRef = D436E7162367CA9D00D1EE37 /* WDTimeLineImageLoadView.m */; };
 		D436E71A236803CE00D1EE37 /* WDTimeLineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D436E719236803CE00D1EE37 /* WDTimeLineTableViewCell.m */; };
 		D436E72923681A8900D1EE37 /* HZWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = D436E72123681A8900D1EE37 /* HZWaitingView.m */; };
@@ -15,6 +16,11 @@
 		D436E72B23681A8A00D1EE37 /* HZPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D436E72623681A8900D1EE37 /* HZPhotoBrowser.bundle */; };
 		D436E72C23681A8A00D1EE37 /* HZPhotoBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = D436E72723681A8900D1EE37 /* HZPhotoBrowserView.m */; };
 		D436E72F2368299B00D1EE37 /* WDTimeLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = D436E72E2368299A00D1EE37 /* WDTimeLineView.m */; };
+		D448BFD22369231600501774 /* WDTimeLinePostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D448BFD12369231600501774 /* WDTimeLinePostViewController.m */; };
+		D448BFD5236923EB00501774 /* WDTimeLinePostTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D448BFD4236923EB00501774 /* WDTimeLinePostTextViewCell.m */; };
+		D448BFD82369241200501774 /* WDTimeLineImageSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D448BFD72369241200501774 /* WDTimeLineImageSelectCell.m */; };
+		D448BFDB2369244D00501774 /* WDTimeLineLocationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D448BFDA2369244D00501774 /* WDTimeLineLocationCell.m */; };
+		D448BFDE2369247200501774 /* WDTimeLineTypeSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D448BFDD2369247200501774 /* WDTimeLineTypeSelectCell.m */; };
 		D4C450FB2366DE32000C2F76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C450FA2366DE32000C2F76 /* AppDelegate.m */; };
 		D4C450FE2366DE32000C2F76 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C450FD2366DE32000C2F76 /* SceneDelegate.m */; };
 		D4C451012366DE32000C2F76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C451002366DE32000C2F76 /* ViewController.m */; };
@@ -30,6 +36,10 @@
 
 /* Begin PBXFileReference section */
 		686B9910F51EDBBE89BF4626 /* libPods-TimeLine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TimeLine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4331E382369267900A73E0C /* UITextView+TimeLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+TimeLine.h"; sourceTree = "<group>"; };
+		D4331E392369267900A73E0C /* UITextView+TimeLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+TimeLine.m"; sourceTree = "<group>"; };
+		D4331E3E23693FD100A73E0C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		D4331E3F23693FD100A73E0C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		D436E7152367CA9D00D1EE37 /* WDTimeLineImageLoadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDTimeLineImageLoadView.h; sourceTree = "<group>"; };
 		D436E7162367CA9D00D1EE37 /* WDTimeLineImageLoadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDTimeLineImageLoadView.m; sourceTree = "<group>"; };
 		D436E718236803CE00D1EE37 /* WDTimeLineTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDTimeLineTableViewCell.h; sourceTree = "<group>"; };
@@ -45,6 +55,16 @@
 		D436E72823681A8900D1EE37 /* HZPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZPhotoBrowser.h; sourceTree = "<group>"; };
 		D436E72D2368299A00D1EE37 /* WDTimeLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDTimeLineView.h; sourceTree = "<group>"; };
 		D436E72E2368299A00D1EE37 /* WDTimeLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDTimeLineView.m; sourceTree = "<group>"; };
+		D448BFD02369231600501774 /* WDTimeLinePostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDTimeLinePostViewController.h; sourceTree = "<group>"; };
+		D448BFD12369231600501774 /* WDTimeLinePostViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDTimeLinePostViewController.m; sourceTree = "<group>"; };
+		D448BFD3236923EB00501774 /* WDTimeLinePostTextViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDTimeLinePostTextViewCell.h; sourceTree = "<group>"; };
+		D448BFD4236923EB00501774 /* WDTimeLinePostTextViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDTimeLinePostTextViewCell.m; sourceTree = "<group>"; };
+		D448BFD62369241200501774 /* WDTimeLineImageSelectCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDTimeLineImageSelectCell.h; sourceTree = "<group>"; };
+		D448BFD72369241200501774 /* WDTimeLineImageSelectCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDTimeLineImageSelectCell.m; sourceTree = "<group>"; };
+		D448BFD92369244D00501774 /* WDTimeLineLocationCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDTimeLineLocationCell.h; sourceTree = "<group>"; };
+		D448BFDA2369244D00501774 /* WDTimeLineLocationCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDTimeLineLocationCell.m; sourceTree = "<group>"; };
+		D448BFDC2369247200501774 /* WDTimeLineTypeSelectCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDTimeLineTypeSelectCell.h; sourceTree = "<group>"; };
+		D448BFDD2369247200501774 /* WDTimeLineTypeSelectCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDTimeLineTypeSelectCell.m; sourceTree = "<group>"; };
 		D4C450F62366DE32000C2F76 /* TimeLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4C450F92366DE32000C2F76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D4C450FA2366DE32000C2F76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -98,10 +118,44 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		D4331E3B23692B4A00A73E0C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D448BFD02369231600501774 /* WDTimeLinePostViewController.h */,
+				D448BFD12369231600501774 /* WDTimeLinePostViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D4331E3C23692B5600A73E0C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D448BFD3236923EB00501774 /* WDTimeLinePostTextViewCell.h */,
+				D448BFD4236923EB00501774 /* WDTimeLinePostTextViewCell.m */,
+				D448BFD62369241200501774 /* WDTimeLineImageSelectCell.h */,
+				D448BFD72369241200501774 /* WDTimeLineImageSelectCell.m */,
+				D448BFD92369244D00501774 /* WDTimeLineLocationCell.h */,
+				D448BFDA2369244D00501774 /* WDTimeLineLocationCell.m */,
+				D448BFDC2369247200501774 /* WDTimeLineTypeSelectCell.h */,
+				D448BFDD2369247200501774 /* WDTimeLineTypeSelectCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D4331E3D23692B6200A73E0C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D4331E382369267900A73E0C /* UITextView+TimeLine.h */,
+				D4331E392369267900A73E0C /* UITextView+TimeLine.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		D436E71D2368165400D1EE37 /* WDTimeLine */ = {
 			isa = PBXGroup;
 			children = (
-				D436E71C2368157D00D1EE37 /* WDTimeLineConstant.h */,
+				D436E72D2368299A00D1EE37 /* WDTimeLineView.h */,
+				D436E72E2368299A00D1EE37 /* WDTimeLineView.m */,
 				D436E72023681A8900D1EE37 /* PhtotoBrowser */,
 				D436E71F2368166700D1EE37 /* Tool */,
 				D436E71E2368165F00D1EE37 /* View */,
@@ -182,14 +236,14 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		D436E73323682F8700D1EE37 /* View */ = {
+		D448BFDF2369247A00501774 /* WDTimeLinePost */ = {
 			isa = PBXGroup;
 			children = (
-				D436E71D2368165400D1EE37 /* WDTimeLine */,
-				D436E72D2368299A00D1EE37 /* WDTimeLineView.h */,
-				D436E72E2368299A00D1EE37 /* WDTimeLineView.m */,
+				D4331E3B23692B4A00A73E0C /* Controller */,
+				D4331E3C23692B5600A73E0C /* View */,
+				D4331E3D23692B6200A73E0C /* Category */,
 			);
-			path = View;
+			path = WDTimeLinePost;
 			sourceTree = "<group>";
 		};
 		D4C450ED2366DE32000C2F76 = {
@@ -213,9 +267,11 @@
 		D4C450F82366DE32000C2F76 /* TimeLine */ = {
 			isa = PBXGroup;
 			children = (
+				D436E71C2368157D00D1EE37 /* WDTimeLineConstant.h */,
+				D436E71D2368165400D1EE37 /* WDTimeLine */,
+				D448BFDF2369247A00501774 /* WDTimeLinePost */,
 				D436E73023682F3D00D1EE37 /* Delegate */,
 				D436E73223682F6800D1EE37 /* Controller */,
-				D436E73323682F8700D1EE37 /* View */,
 				D436E73123682F4B00D1EE37 /* Supporting Files */,
 			);
 			path = TimeLine;
@@ -232,6 +288,7 @@
 				D4C450F22366DE32000C2F76 /* Sources */,
 				D4C450F32366DE32000C2F76 /* Frameworks */,
 				D4C450F42366DE32000C2F76 /* Resources */,
+				3249828F627C857D99702E93 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,6 +320,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = D4C450ED2366DE32000C2F76;
 			productRefGroup = D4C450F72366DE32000C2F76 /* Products */;
@@ -289,6 +347,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3249828F627C857D99702E93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TimeLine/Pods-TimeLine-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TimeLine/Pods-TimeLine-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TimeLine/Pods-TimeLine-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5C0713E416A0F40E71C99BB0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -321,17 +396,23 @@
 				D436E72F2368299B00D1EE37 /* WDTimeLineView.m in Sources */,
 				D4C451172366E035000C2F76 /* WDTimeLineBaseTableViewCell.m in Sources */,
 				D4C451142366DFFD000C2F76 /* WDTimeLinePureTextTableViewCell.m in Sources */,
+				D448BFD22369231600501774 /* WDTimeLinePostViewController.m in Sources */,
 				D436E72C23681A8A00D1EE37 /* HZPhotoBrowserView.m in Sources */,
 				D4C4511D2366EAF3000C2F76 /* WDTimeLineTool.m in Sources */,
+				D448BFDB2369244D00501774 /* WDTimeLineLocationCell.m in Sources */,
 				D4C451012366DE32000C2F76 /* ViewController.m in Sources */,
+				D4331E3A2369267900A73E0C /* UITextView+TimeLine.m in Sources */,
 				D436E72923681A8900D1EE37 /* HZWaitingView.m in Sources */,
 				D4C450FB2366DE32000C2F76 /* AppDelegate.m in Sources */,
+				D448BFD82369241200501774 /* WDTimeLineImageSelectCell.m in Sources */,
 				D436E71A236803CE00D1EE37 /* WDTimeLineTableViewCell.m in Sources */,
 				D436E7172367CA9D00D1EE37 /* WDTimeLineImageLoadView.m in Sources */,
 				D4F50BFC2367C917002FCA45 /* WDTimeLinePureImageTableViewCell.m in Sources */,
 				D4C4510C2366DE36000C2F76 /* main.m in Sources */,
+				D448BFDE2369247200501774 /* WDTimeLineTypeSelectCell.m in Sources */,
 				D4C450FE2366DE32000C2F76 /* SceneDelegate.m in Sources */,
 				D436E72A23681A8A00D1EE37 /* HZPhotoBrowser.m in Sources */,
+				D448BFD5236923EB00501774 /* WDTimeLinePostTextViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +423,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				D4C451032366DE32000C2F76 /* Base */,
+				D4331E3E23693FD100A73E0C /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -350,6 +432,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				D4C451082366DE36000C2F76 /* Base */,
+				D4331E3F23693FD100A73E0C /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -361,6 +444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -419,6 +503,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
