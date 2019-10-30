@@ -8,6 +8,7 @@
 
 #import "WDTimeLinePostViewController.h"
 #import <Masonry.h>
+#import <BRPickerView.h>
 
 #import "WDTimeLinePostTextViewCell.h"
 #import "WDTimeLineImageSelectCell.h"
@@ -18,6 +19,8 @@
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, assign) CGFloat textViewCellHeight;
 @property (nonatomic, assign) CGFloat imageCellHeight;
+
+@property (nonatomic, copy) NSString *typeString;
 @end
 
 @implementation WDTimeLinePostViewController
@@ -26,6 +29,7 @@
     [super viewDidLoad];
     
     self.title = @"添加圈子";
+    self.typeString = @"";
     
     [self.view addSubview:self.tableView];
     self.textViewCellHeight = 130;
@@ -61,6 +65,7 @@
         return cell;
     } else {
         WDTimeLineTypeSelectCell *cell = [tableView dequeueReusableCellWithIdentifier:@"WDTimeLineTypeSelectCell" forIndexPath:indexPath];
+        cell.currentTypeLabel.text = self.typeString.length > 0 ? self.typeString : @"选择分类";
         return cell;
     }
 }
@@ -79,6 +84,13 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [self.view endEditing:YES];
+    
+    if (indexPath.row == 3) {
+        [BRStringPickerView showStringPickerWithTitle:@"选择分类" dataSource:@[@"古风", @"国漫", @"日漫"] defaultSelValue:nil resultBlock:^(id selectValue) {
+            self.typeString = selectValue;
+            [self.tableView reloadData];
+        }];
+    }
 }
 
 #pragma mark - WDTimeLinePostTextViewCell Delegate
@@ -90,6 +102,13 @@
     }];
 }
 
+- (void)postTextViewCell:(WDTimeLinePostTextViewCell *)cell reachedMaxNum:(BOOL)reached {
+    if (reached) {
+        NSLog(@"=============z最大");
+    }
+}
+
+#pragma mark - WDTimeLineImageSelectCell Delegate
 - (void)imageSelectCell:(WDTimeLineImageSelectCell *)cell didChangePhotos:(NSArray<PHAsset *> *)photos {
     if (photos.count < 3) {
         self.imageCellHeight = (UIScreen.mainScreen.bounds.size.width - 25 * 2 - 3 * 2) / 3 + 10 * 2;
